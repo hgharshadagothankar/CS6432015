@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.imgs {
+    float: right;
+    border: 1px dotted black;
+    margin: 0px 0px 15px 20px;
+}
+
+</style>
+<title>AppDock</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+
+    <script type="text/javascript">
+
+	
+        $(function() {
+            // create the image rotator
+            setInterval("rotateImages()", 3000);
+        });
+
+        function rotateImages() {
+            var oCurPhoto = $('#hero div.current');
+            var oNxtPhoto = oCurPhoto.next();
+            if (oNxtPhoto.length == 0)
+                oNxtPhoto = $('#hero div:first');
+
+            oCurPhoto.removeClass('current').addClass('previous');
+            oNxtPhoto.css({ opacity: 0.0 }).addClass('current')
+                    .animate({ opacity: 1.0 }, 1000,
+                                function() {
+                                    oCurPhoto.removeClass('previous');
+                                });
+        }
+
+		$(document).ready(function(){
+$('#slider1') .cycle({
+fx: 'fade', // here change effect to blindX, blindY, blindZ etc 
+speed: 'slow', 
+timeout: 2000 
+});
+}); 
+
+    </script>
+</head>
+<body>
+	<div class="container">
+		<div class="header"><img src="img/appDock_Logo.jpg" height="20%" width="20%" align="center">
+		</div>
+      
+
+<!--<nav class="main-navigation" role="navigation">
+<div>
+<ul id="menu-main-menu" class="nav-menu">
+<li><a href="index.html">Home</a></li>
+<li><a href="restaurant-to-room-service.html">Room Service</a></li>
+<li><a href="specials.html">Specials</a></li>
+<li><a href="reservations.html">Reservations</a></li>
+<li><a href="meetings-events.html">Meetings &#038; Events</a></li>
+<li><a href="news.html">News</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul></div>
+</nav>
+		-->
+
+
+		<div class="content">
+		<div class="reserve"><b></b></div>
+		
+		<table border="0" width="100%">
+		<tr><td>
+		<h1>Thank You For Your FeedBack!!!!</h1><br>
+		
+		</table>
+		<br/>
+			<hr/><br/>
+			
+			
+		</div>
+		<div class="footer">
+		<center>&copy;2015 The AppDock</center>
+		The AppDock is a Project which is specifically created for the senegal.It is an interface between The Public and Developers/Social Entrepreneurs in Africa.</div>
+	</div>
+</body>
+</html>
