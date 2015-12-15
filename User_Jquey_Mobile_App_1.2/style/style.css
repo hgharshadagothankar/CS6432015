@@ -1,0 +1,161 @@
+body {
+	background-color: #D2B48C;
+	background-image: url("img/backgg.jpg");
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: justify;
+	color: black;
+}
+.container {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	background-color: #D2B48C;
+	box-shadow: 2px 2px 2px #888;
+}
+
+.appdock
+{
+	float:center;
+}
+.reserve {
+	padding-top: 10px;
+	text-align: center;
+	background-color: #D2B48C;
+}
+.content {
+	line-height: 24px;
+	padding: 25px;
+	background-color: #D2B48C;
+}
+
+.imgs {
+    float: right;
+    border: 1px dotted black;
+    margin: 0px 0px 15px 20px;
+}
+.header
+{
+	background-image: url("img/backgg.jpg");
+}
+
+.headings
+{
+
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    margin: -100px 0 0 -200px;
+    top: 50%;
+    left: 50%;
+}
+
+.aligncenter{
+    text-align:center;
+    padding:0;
+}
+.footer {
+	padding: 15px;
+	color:white;
+	background-color: #602e8b;
+	font-size: 10px;
+	background-color: #D2B48C;
+}
+a:link{
+	color:#959bd1;
+	text-decoration:none;
+	background-color: #D2B48C;
+}
+a:hover{
+	text-decoration:underline;
+	background-color: #D2B48C;
+}
+h1 {
+	font-size: 21px;
+	line-height: 1.5;
+	
+}
+
+h2 {
+	font-size: 18px;
+	line-height: 1.6;
+}
+h3 {
+	font-size: 16px;
+	line-height: 1.8;
+}
+hr {
+	border-top:1px solid #bbb;
+}
+.main-navigation ul.nav-menu,
+.main-navigation div.nav-menu > ul {
+		display: inline-block !important;
+		text-align: left;
+		width: 100%;
+}
+.main-navigation ul {
+		margin: 0;
+		text-indent: 0;
+}
+.main-navigation li a,
+.main-navigation li {
+		display: inline-block;
+		text-decoration: none;
+}
+.main-navigation li a {
+		border-bottom: 0;
+		color: #6a6a6a;
+		line-height: 3.6;
+		text-transform: uppercase;
+		white-space: nowrap;
+}
+.main-navigation li a:hover{
+		color: #000;
+}
+.main-navigation li {
+		margin: 0 30px 0 0;
+		position: relative;
+}
+form{
+  line-height:2.4em;
+  background-color: #D2B48C;
+}
+.room-service{
+	background-repeat:no-repeat;
+	background-image:url('../img/table-setting_485913447.jpeg');
+	background-color:#FFF;
+}
+.news {
+    margin-bottom: 5pt;
+    border-bottom: 1px solid #aaa;
+}
+.event {
+    padding:5pt;
+}
+#hero {
+    height:300px;
+    width:960px;
+    background-color: #D2B48C;
+}
+#hero div {
+	background-color: #D2B48C;
+    position:absolute;
+    z-index: 0;
+}
+#hero div.previous {
+	background-color: #D2B48C;
+    z-index: 1;
+}
+#hero div.current {
+	background-color: #D2B48C;
+    z-index: 2;
+}
+
+span.note {
+	background-color: #D2B48C;font-size:120%;align:left;}
+
+td{text-align: "center";}
+tr{text-align: "center"}
+
+
